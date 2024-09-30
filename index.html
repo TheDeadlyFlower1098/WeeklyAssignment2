@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
     <title>Weekly Assignemtn 2</title>
 </head>
 <body>
@@ -15,9 +15,15 @@
     </div>
 
     <div class="choices">
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+
+    <!-- displaying the result -->
+    <div class="result">
+        <p id="resultText"></p>
+        <p id="scoreText">Score: You - 0, Computer - 0</p>
     </div>
 
     <script src="javaStuff.js"></script> <!-- Link to external JavaScript file -->
